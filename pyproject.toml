@@ -1,0 +1,12 @@
+[project]
+name = "barghest-ward"
+version = "0.1.0"
+description = "Modular ADB-based forensic detection engine for Android"
+authors = [
+    { name="Your Name", email="you@example.com" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+barghest-ward = "barghest_ward.cli:main"
