@@ -11,3 +11,6 @@ def main():
     data = parse_input_file(args.input)
     results = run_all_heuristics(data)
     print_report(results)
+
+if __name__ == "__main__":
+    main()
