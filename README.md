@@ -1,21 +1,3 @@
-# BARGHEST__WARD
-_WARD is a modular, open-source CLI tool for behavioral spyware detection using Android ADB forensic data. Built for integration with tools like MVT and our remote aquision tool BARGHEST_MESH.
+_WARD is a modular, open-source CLI tool for behavioral spyware detection using Android ADB forensic data. It is designed to work with tools like MVT and our remote acquisition framework BARGHEST_MESH, providing analysts with a fast, scriptable way to inspect mobile devices without reliance on IOCs or vendor-specific telemetry. WARD focuses on behavioral patterns such as abnormal wakelock activity, battery drain, location misuse, and persistent background tasks that may indicate surveillanceware or unauthorized monitoring.
 
-## _FEATURES
-- Modular heuristic engine for ADB data (battery drain detection, permissions abuse, and more)
-- CLI interface
-- Designed for extensibility and future YARA support
-
-## _USAGE
-```bash
-barghest-ward --input batterystats.txt
-```
-## _ROADMAP
-- [x] CLI MVP
-- [ ] Additional heuristics
-- [ ] YARA rule engine
-- [ ] GUI frontend
-
-## _US
-
-https://BARGHEST.asia
+This tool is intended for self-service forensic review in environments where rapid triage is critical. It works offline, supports integration with other security pipelines, and is built to scale across large device sets. Each detection module (heuristic) is independently developed for clarity and extensibility, allowing custom logic to be added as needed to support new threat models or data sources.

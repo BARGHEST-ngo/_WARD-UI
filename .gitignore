@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode settings (optional)
+.vscode/
+
+# ADB logs and any runtime outputs
+adb-logs/
+*.log
+
+# Build files
+*.egg-info/
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
