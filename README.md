@@ -1,4 +1,4 @@
-# WARD — Decentralised live-state Android forensics & acquisition
+# WARD — Live-state Android forensics & acquisition
 
 **WARD** is a modular, open-source, decentralised, distributed, offline, and privacy-respecting tool for **behavioral mobile forensics and acquisition** using Android ADB–accessible data.  
 
@@ -16,7 +16,7 @@ This lets civil society, journalists, and investigators run **self-service devic
 
 ## Two ways to use WARD
 
-### 1. Self-Service “Kiosk” Triage
+### 1. Self-service “kiosk” triage
 For activists, journalists, and human rights defenders who think something’s up with their phone.  
 
 WARD’s simple, GUI-driven workflow walks you through a safe acquisition — no CLI, no rooting, no specialist training.  
