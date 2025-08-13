@@ -10,6 +10,7 @@ Instead of relying on vendor telemetry, malware signatures, or preloaded IOCs, W
 - unexplained battery drain
 - location misuse
 - persistent background processes
+- memory crashes
 
 This lets civil society, journalists, and investigators run **self-service device triage** — without handing control to closed platforms or outside vendors.
 
