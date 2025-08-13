@@ -20,11 +20,14 @@ This lets civil society, journalists, and investigators run **self-service devic
 
 ### 1. Self-service “kiosk” triage
 WARD directly supports activists, journalists, and human rights defenders who think something’s up with their phone. Our simple, GUI-driven workflow walks you through a safe acquisition — no CLI, no rooting, no specialist training.  
+
 It captures live-state and artifact data, then flags suspicious patterns as if a triage analyst has had a quick look at your device.
 
 It will provide you an overal risk matrix, and guide you to look for certain things on your phone that might be suspicious.  Instead of relying on a “hunch” or waiting for help, you can immediately get a **forensic snapshot** that you can act on yourself or pass to a trusted analyst.
 
 We encourage all users, where if in doubt, to reach out to an expert. You can also use the escalate function to escalate an issue to our team. Note that we are not a helpline or threat lab, but we can assist where our capacity allows.
+
+*This tool is completely offline, all of your data is retained on your computer alone. Note that since we rely purely on Android Debug Data, we do not aquire any PII (unless there's a PII leak by an app developer that enters your logs)*
 
 ---
 
