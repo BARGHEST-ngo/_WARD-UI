@@ -1,4 +1,4 @@
-# WARD — Live-state Android forensics & acquisition
+# _WARD — Live-state behavioural forensics & acquisition for Android
 
 **WARD** is a modular, open-source, decentralised, distributed, offline, and privacy-respecting tool for **behavioral mobile forensics and acquisition** using Android ADB–accessible data.  
 
