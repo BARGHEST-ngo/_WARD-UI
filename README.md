@@ -3,8 +3,6 @@
 
 
 **THIS TOOL IS IN BETA - PLEASE NOTE THAT FUNCTIONALITY AND HEURISTICS MAY HAVE ERRORS**
-**PLEASE BE AWARE THAT OUR HEURSTICS ARE BEING BUILT BY RUNNING AGAINST TEST DEVICES INFECTED WITH KNOWN SPYWARE IMPACTING CIVIL SOCIETY, FIELD TESTING WILL VARY. SOME HEURISTICS, THOSE WHICH FOCUS ON 0-click EXPLOIT CHAINS SPECIFICALLY, ARE CURRENTLY EXPLORATORY**
-**WE ARE AWARE THAT IMPLANTS CAN WIPE /data/tombstones & ADB DATA; WE MUST WORK WITH WHAT CAN GOT AND ENSURE WE PRESERVE DATA AS QUICK AS POSSIBLE, WHICH IS WHY WARD EXISTS**
 
 **WARD** is a modular, open-source, decentralised, distributed, offline, and privacy-respecting tool for **behavioral mobile forensics and acquisition** using Android ADB–accessible data. It's developed by [BARGHEST](https://barghest.asia), a non-profit organization aiming to support the democratization of threat intelligence in the majority world. 
 
@@ -87,6 +85,12 @@ We, Barghest, challenge this for three reasons:
 **The alternative to empowering local actors is leaving them defenceless until outside help arrives — often too late, or never.**  
 
 We believe that decentralised forensic tools like WARD aren’t here to replace experts — they extend their reach.
+
+---
+### Limitations 
+
+**PLEASE BE AWARE THAT OUR HEURSTICS ARE BEING BUILT BY RUNNING AGAINST TEST DEVICES INFECTED WITH KNOWN SPYWARE IMPACTING CIVIL SOCIETY, FIELD TESTING WILL VARY. SOME HEURISTICS, THOSE WHICH FOCUS ON 0-click EXPLOIT CHAINS SPECIFICALLY, ARE CURRENTLY EXPLORATORY**
+**WE ARE AWARE THAT IMPLANTS CAN WIPE /data/tombstones & ADB DATA; WE MUST WORK WITH WHAT CAN GOT AND ENSURE WE PRESERVE DATA AS QUICK AS POSSIBLE, WHICH IS WHY WARD EXISTS**
 
 # GUIDE AND SETUP
 <img width="1366" height="768" alt="guideandsetup" src="https://github.com/user-attachments/assets/de787667-e3cb-47e2-83d4-e431db8a7edf" />
