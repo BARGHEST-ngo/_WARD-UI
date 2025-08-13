@@ -78,3 +78,7 @@ We, Barghest, challenge this for three reasons:
 **The alternative to empowering local actors is leaving them defenceless until outside help arrives — often too late, or never.**  
 
 We believe that decentralised forensic tools like WARD aren’t here to replace experts — they extend their reach.
+
+# GUIDE AND SETUP
+<img width="1366" height="768" alt="guideandsetup" src="https://github.com/user-attachments/assets/de787667-e3cb-47e2-83d4-e431db8a7edf" />
+
