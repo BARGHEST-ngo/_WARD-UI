@@ -2,7 +2,7 @@
 
 **WARD** is a modular, open-source, decentralised, distributed, offline, and privacy-respecting tool for **behavioral mobile forensics and acquisition** using Android ADB–accessible data.  
 
-It grabs and analyses a wide range of system artifacts — crash logs, process and thread listings, diagnostic outputs, Wi-Fi manager logs, installed apps — to **preserve forensic evidence** and surface patterns that might indicate spyware or other unwanted activity.  
+It grabs and analyses a wide range of live-state system artifacts — crash logs, process and thread listings, diagnostic outputs, Wi-Fi manager logs, installed apps — to **preserve forensic evidence** and surface patterns that might indicate spyware or other unwanted activity.  
 
 Instead of relying on vendor telemetry, malware signatures, or preloaded IOCs, WARD uses **heuristics** to spot anomalies like:
 - abnormal wakelock usage
