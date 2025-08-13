@@ -87,7 +87,7 @@ We, Barghest, challenge this for three reasons:
 We believe that decentralised forensic tools like WARD aren’t here to replace experts — they extend their reach.
 
 ---
-### Limitations 
+## Limitations 
 
 - Heuristics are in active development — Current modules are built and tested against lab devices infected with known spyware affecting civil society. Field results may vary, especially against novel threats.
 - 0-click exploit detection is exploratory — Heuristics targeting traces from zero-click exploit chains are experimental and may produce false negatives or positives.
