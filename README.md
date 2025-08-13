@@ -29,7 +29,7 @@ Instead of relying on a “hunch” or waiting for help, you can immediately get
 ### 2. Remote forensic acquisition for helplines & expert teams
 For helplines, incident responders, and threat labs.  
 
-We are heavily inspired by the successful work of [AndroidQF](https://github.com/botherder/androidqf) — but aiming to go further — WARD lets you avoid walking non-technical users through complex CLI tools. In addition, we aim to make sense of the complex data patterns within the forensics aquision, so that it can be distributed and understood by a wide range of analysts at all technical levels. 
+We are heavily inspired by the successful work of [AndroidQF](https://github.com/botherder/androidqf) — but aiming to go further — WARD lets you avoid walking non-technical users through complex CLI tools. Our experience of having to remote share/call with victims is a high-friction situation that needs a solution. In addition, we aim to make sense of the complex data patterns within the forensics aquision, so that it can be distributed and understood by a wide range of analysts at all technical levels. 
 When a at-risk HRD runs WARD, and it will:
 - grab a full bugreport + key volatile data
 - wrap it in a tamper-evident case archive
