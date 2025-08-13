@@ -89,8 +89,19 @@ We believe that decentralised forensic tools like WARD aren’t here to replace 
 ---
 ### Limitations 
 
-**PLEASE BE AWARE THAT OUR HEURSTICS ARE BEING BUILT BY RUNNING AGAINST TEST DEVICES INFECTED WITH KNOWN SPYWARE IMPACTING CIVIL SOCIETY, FIELD TESTING WILL VARY. SOME HEURISTICS, THOSE WHICH FOCUS ON 0-click EXPLOIT CHAINS SPECIFICALLY, ARE CURRENTLY EXPLORATORY**
-**WE ARE AWARE THAT IMPLANTS CAN WIPE /data/tombstones & ADB DATA; WE MUST WORK WITH WHAT CAN GOT AND ENSURE WE PRESERVE DATA AS QUICK AS POSSIBLE, WHICH IS WHY WARD EXISTS**
+- Heuristics are in active development — Current modules are built and tested against lab devices infected with known spyware affecting civil society. Field results may vary, especially against novel threats.
+- 0-click exploit detection is exploratory — Heuristics targeting traces from zero-click exploit chains are experimental and may produce false negatives or positives.
+- Volatile data can be wiped by implants (proven by Google P0) — some spyware can delete /data/tombstones, ADB-accessible logs, and other key artifacts before they’re captured.
+- We gotta work with what we got. And work with what ADB can access — on non-rooted devices. Collection is limited to data exposed through ADB. Root-only artifacts remain inaccessible.
+
+Speed is critical — WARD’s design prioritizes rapid preservation of whatever is available at the moment of suspicion, to minimize the risk of evidence loss.
+
+### What WARD does not do
+- No continuous monitoring — WARD captures point-in-time snapshots and forensics data; it is not an always-on antivirus or EDR. You should use a on device AV/MDM - these tools work hand in hand.
+- No guaranteed “clean” or “infected” verdicts — results are heuristic signals meant for interpretation and analysis, not definitive proof of compromise.
+- No root bypass — WARD does not escalate privileges or exploit the device; it only collects what ADB can access on the connected device. Unlike some commercial tools like Cellbrite, we do not use exploits to root devices for disk backups etc. We call this a live-state forensics system because it collects ADB live-state data not disk. 
+- No prevention or removal — WARD is a forensic acquisition and analysis tool, not a remediation or cleaning utility. We hope to document these processes better in the future to support remediation if you find something sus. 
+- No cloud dependency — WARD will not phone home, submit logs, or auto-update without your control — but this also means no remote database lookups or cloud-assisted analysis.
 
 # GUIDE AND SETUP
 <img width="1366" height="768" alt="guideandsetup" src="https://github.com/user-attachments/assets/de787667-e3cb-47e2-83d4-e431db8a7edf" />
