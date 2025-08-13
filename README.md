@@ -1,4 +1,5 @@
 # _WARD — Live-state behavioural forensics & acquisition for Android
+<img width="1366" height="768" alt="Artboard 1" src="https://github.com/user-attachments/assets/452a441b-0834-412a-8cc9-239769ad833e" />
 
 **WARD** is a modular, open-source, decentralised, distributed, offline, and privacy-respecting tool for **behavioral mobile forensics and acquisition** using Android ADB–accessible data.  
 
