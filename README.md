@@ -14,7 +14,7 @@ This lets civil society, journalists, and investigators run **self-service devic
 
 ---
 
-## Two Ways to Use WARD
+## Two ways to use WARD
 
 ### 1. Self-Service “Kiosk” Triage
 For activists, journalists, and human rights defenders who think something’s up with their phone.  
@@ -26,7 +26,7 @@ Instead of relying on a “hunch” or waiting for help, you can immediately get
 
 ---
 
-### 2. Remote Forensic Acquisition for Expert Teams
+### 2. Remote forensic acquisition for helplines & expert teams
 For helplines, incident responders, and threat labs.  
 
 We are heavily inspired by the successful work of [AndroidQF](https://github.com/botherder/androidqf) — but aiming to go further — WARD lets you avoid walking non-technical users through complex CLI tools. In addition, we aim to make sense of the complex data patterns within the forensics aquision, so that it can be distributed and understood by a wide range of analysts at all technical levels. 
@@ -40,7 +40,7 @@ This speeds up case intake, preserves volatile detail, and keeps data integrity 
 
 ---
 
-## Why Decentralised, Distributed, Offline Matters
+## Why decentralised, distributed, offline matters
 In much of the majority world, internet is slow, censored, risky, or unreliable — which in our experience, is not a safe bet during an active incident.  
 Centralised forensic models are fragile and leave people behind.
 
