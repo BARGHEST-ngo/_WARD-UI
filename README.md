@@ -27,7 +27,7 @@ It will provide you an overal risk matrix, and guide you to look for certain thi
 
 We encourage all users, where if in doubt, to reach out to an expert. You can also use the escalate function to escalate an issue to our team. Note that we are not a helpline or threat lab, but we can assist where our capacity allows.
 
-*This tool is completely offline, all of your data is retained on your computer alone. Note that since we rely purely on Android Debug Data, we do not aquire any PII (unless there's a PII leak by an app developer that enters your logs)*
+*This tool is completely offline, we do not collect any data or telemetry, all of your data is retained on your computer alone and thus should be properly and securely handled by you. Note that since we rely purely on Android Debug data, *WARD does not aquire any PII (unless there's a PII leak by an app developer that enters your logs)**
 
 ---
 
