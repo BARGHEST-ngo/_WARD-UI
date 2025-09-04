@@ -2,7 +2,7 @@
 <img width="1366" height="768" alt="Artboard 1" src="https://github.com/user-attachments/assets/aeefb8f2-57de-402c-9216-41a94f6f26d2" />
 
 
-**THIS TOOL IS IN BETA - PLEASE NOTE THAT FUNCTIONALITY AND HEURISTICS MAY HAVE ERRORS**
+# **THE FULL VERSION OF THIS TOOL IS DUE IN OCTOBER**
 
 **WARD** is a modular, open-source, decentralised, distributed, offline, and privacy-respecting tool for **behavioral mobile forensics and acquisition** using Android ADB–accessible data. It's developed by [BARGHEST](https://barghest.asia), a non-profit organization aiming to support the democratization of threat intelligence in the majority world. 
 
