@@ -1,5 +1,4 @@
 # _WARD — Live-state behavioural forensics & acquisition for Android
-<img width="1366" height="768" alt="Artboard 1" src="https://github.com/user-attachments/assets/aeefb8f2-57de-402c-9216-41a94f6f26d2" />
 
 **The full version of this tool is not yet released. For now, please use: https://github.com/BARGHEST-ngo/_WARD-core**
 
