@@ -101,6 +101,5 @@ Speed is critical — WARD’s design prioritizes rapid preservation of whatever
 - No prevention or removal — WARD is a forensic acquisition and analysis tool, not a remediation or cleaning utility. We hope to document these processes better in the future to support remediation if you find something sus. 
 - No cloud dependency — WARD will not phone home, submit logs, or auto-update without your control — but this also means no remote database lookups or cloud-assisted analysis.
 
-# GUIDE AND SETUP
-<img width="1366" height="768" alt="guideandsetup" src="https://github.com/user-attachments/assets/de787667-e3cb-47e2-83d4-e431db8a7edf" />
+
 
